@@ -8,6 +8,8 @@ class Helpers
     #!!User.all.find_by(username: session[:username], password: session[:password])
     !!User.all.find(session_hash[:user_id])
   end
+  
+  def self.
 
 end
 
