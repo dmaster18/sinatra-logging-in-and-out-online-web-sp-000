@@ -24,7 +24,7 @@ class ApplicationController < Sinatra::Base
   end
 
   get '/account' do
-    if Helpers.is_logged_in?(session) && @logged_in == true
+    if Helpers.is_logged_in?(session)
       erb :account
     else
       erb :error
