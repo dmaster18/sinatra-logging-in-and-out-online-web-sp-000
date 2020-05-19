@@ -10,6 +10,7 @@ class Helpers
   end
   
   def self.logged_in
+end
 
 end
 
