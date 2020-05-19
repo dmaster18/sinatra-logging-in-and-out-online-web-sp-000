@@ -25,7 +25,7 @@ class ApplicationController < Sinatra::Base
     if Helpers.is_logged_in?(session) 
       erb :account
     else
-      redirect_to '/login'
+      erb :error
     end
   end
 
