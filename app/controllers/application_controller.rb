@@ -16,6 +16,7 @@ class ApplicationController < Sinatra::Base
     @logged_in = false
     if @user
       session[:user_id] = @user.id
+      @logged_in = true
       redirect to '/account'
     else
       erb :error
