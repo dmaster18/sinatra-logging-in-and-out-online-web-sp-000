@@ -12,7 +12,7 @@ class ApplicationController < Sinatra::Base
   end
   
   get '/login' do 
-    
+    erb :index
   end
    
    post '/login' do
