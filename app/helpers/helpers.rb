@@ -9,7 +9,7 @@ class Helpers
     !!User.all.find(session_hash[:user_id])
   end
   
-  def self.
+  def self.logged_in
 
 end
 
