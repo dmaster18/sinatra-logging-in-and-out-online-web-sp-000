@@ -28,7 +28,8 @@ class ApplicationController < Sinatra::Base
       redirect to '/error'
     end
   end
-
+  
+  get '/error'
 
   get '/logout' do
     session.clear
