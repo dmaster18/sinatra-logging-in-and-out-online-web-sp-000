@@ -30,6 +30,7 @@ class ApplicationController < Sinatra::Base
   end
   
   get '/error' do 
+    erb :error
 
   get '/logout' do
     session.clear
